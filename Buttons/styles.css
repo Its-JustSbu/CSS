@@ -1,0 +1,116 @@
+* {
+    background-color: rgb(218, 216, 216);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.uber-button {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    height: 40px;
+    width: 120px;
+    transition: opacity 0.3s;
+    margin: 20px;
+    border-radius:  1px;
+}
+.uber-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.uber-button:active {
+    opacity: 0.5;
+}
+.amazon-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    width: 150px;
+    height: 37px;
+    border-radius: 19px;
+    transition: background-color 0.4s;
+    border: none;
+}
+.amazon-button:hover {
+    background-color: rgb(255, 196, 0);
+}
+.amazon-button:active {
+    background-color: rgb(255, 123, 0)
+}
+.github-button {
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(30, 150, 70);
+    font-family: sans-serif;
+    width: 80px;
+    height: 37px;
+    transition: box-shadow 0.4s;
+    border: none;
+    border-radius: 5px;
+}
+.github-button:hover {
+    box-shadow: 5px 5px 5pc rgba(0, 0, 0, 0.75);
+}
+.bootstrap-get-started-button {
+    width: 105px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1pt solid rgb(133, 19, 199);
+    color: white;
+    background-color: rgb(133, 19, 199);
+    transition: background-color 1s, color 1s;
+    margin-left: 20px;
+}
+.bootstrap-get-started-button:hover {
+    color: rgb(133, 19, 199);
+    background-color: white;
+}
+.bootstrap-get-started-button:active {
+    opacity: 0.7;
+}
+.bootstrap-download-button {
+    margin-left: auto;
+    border: 1pt solid grey;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    width: 105px;
+    height: 37px;
+    transition: background-color 1s, color 1s;
+    border-width: 1px;
+}
+.bootstrap-download-button:hover {
+    color: white;
+    background-color: grey;
+}
+.bootstrap-download-button:active {
+    opacity: 0.7;
+}
+.linkedin-apply-button {
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(14, 101, 214);
+    color: white;
+    border: 1pt solid rgb(14, 101, 214);
+    border-radius: 15px;
+    transition: background-color 1s, color 1s;
+}
+.linkedin-apply-button:hover {
+    background-color: white;
+    color: rgb(14, 101, 214);
+}
+.linkedin-save-button {
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: rgb(14, 101, 214);
+    border: 1pt solid rgb(14, 101, 214);
+    border-radius: 15px;
+    transition: background-color 1s, color 1s;
+}
+.linkedin-save-button:hover {
+    background-color: rgb(14, 101, 214);
+    color: white;  
+}
